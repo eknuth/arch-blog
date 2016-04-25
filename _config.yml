@@ -51,8 +51,8 @@ defaults:
       comments: "true"
 
 # Serving
-url: "http://localhost:4000"
-baseurl: ""
+url: ""
+baseurl: "/arch-blog"
 
 # Outputting
 #permalink: /:categories/:title.html
