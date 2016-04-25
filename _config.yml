@@ -1,9 +1,9 @@
 # General Settings
 name: Edwin Knuth
 job_title: Software engineer
-email: edwin@iknuth.com
+email: eknuth@gmail.com
 description: front end applications and operations, reusable components, data visualization, full stack
-# avatar: https://s3.amazonaws.com/uifaces/faces/twitter/dancounsell/128.jpg
+avatar: http://www.gravatar.com/avatar/9e27ba264dccbe5149fd08b17f5bdeb1?s=140
 favicon: /favicon.ico
 twitter_handler: eknuth
 analytics_code: UA-XXXXXXX-2
