@@ -3,6 +3,8 @@ layout: default
 ---
 
 <article class="post single" role="article" itemscope itemtype="http://schema.org/BlogPosting">
+  {% if page.controller %}ng-controller="{{page.controller}}"{% endif %}
+  {% if page.app %}ng-app="{{page.app}}"{% endif %}>
     <header class="post-header">
         <ul class="clear">
             <li><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%-d %b, %Y" }}</time></li>
@@ -20,6 +22,7 @@ layout: default
     </header>
 
     <div class="post-content">
+        {% if page.ui-view %}<div ui-view></div>{% endif %}
         {{ page.content }}
     </div>
 
