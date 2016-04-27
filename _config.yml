@@ -52,7 +52,7 @@ defaults:
 
 # Serving
 url: ""
-baseurl: "/arch-blog"
+baseurl: ""
 
 # Outputting
 #permalink: /:categories/:title.html
